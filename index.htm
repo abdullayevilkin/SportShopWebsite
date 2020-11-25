@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <!-- Google Fonts (oswald) -->
-    <!-- LEARN.. google fonts and difference between <link> and @import -->
+    <!-- LEARN: google fonts and difference between <link> and @import -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
@@ -14,7 +14,7 @@
     />
 
     <!-- Font awesome (Bootstrap CDN) -->
-    <!-- LEARN.. what is CDN -->
+    <!-- LEARN: what is CDN -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -29,6 +29,73 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <header class="header-1" id="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-lg-2 col-sm-3 col-md-3"
+            style="background-color: aquamarine"
+          >
+            <div class="logo">
+              <a href=""><img src="images/logo.png" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-7 col-sm-7">
+            <nav class="navbar navbar-expand-lg mainmenu text-center">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#cool"
+              >
+                <span class="navbar-toggler-icon">
+                  <i class="fa fa-bars"></i>
+                </span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="cool">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">LOCATIONS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <div class="navigator text-right">
+              <a href="">
+                <i class="fa fa-search"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <!-- (Bootstrap CDN) -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- JQuery CDN -->
